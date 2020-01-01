@@ -52,6 +52,10 @@ window.addEventListener("load", () => {
           });
         });
     });
+  } else {
+    locationTimezone.textContent = "Ooops! Seems Your browser is outdated";
+    temperatureDescription.textContent =
+      "Please Update your browser to use Javascript Widgets.";
   }
 
   // SETTING ICONS FROM SKYCONS
